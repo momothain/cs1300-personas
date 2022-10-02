@@ -1,0 +1,35 @@
+/* dekko-regular - latin */
+@font-face {
+  font-family: 'Dekko';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/dekko-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/dekko-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* indie-flower-regular - latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/indie-flower-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/indie-flower-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: "Dekko", cursive;
+    background-color:blanchedalmond
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Indie Flower", cursive;
+}
+
+h4 {
+    padding-top: 2rem;
+}
